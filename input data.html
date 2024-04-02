@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Profil Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #3904fa;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        /* CSS untuk styling halaman */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form input, form select {
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="form.html">REGISTRASI</a>
+        <a href="index.html">MASUK</a>
+        <a href="input data.html">PROFIL MAHASISWA</a>
+        <a href="tabel.html">JADWAL KULIAH</a>
+        <a href="website.html">ABOUT US</a>
+    </nav>
+
+<div class="container">
+    <h2>Input Profil Mahasiswa</h2>
+    <form>
+        <label for="nama">Nama Mahasiswa:</label>
+        <input type="text" id="nama" name="nama">
+        <label for="nim">NIM Mahasiswa:</label>
+        <input type="text" id="nim" name="nim">
+        <label for="jenjang">Jenjang:</label>
+        <select id="jenjang" name="jenjang">
+            <option value="S1">S1</option>
+            <option value="D3">D3</option>
+        </select>
+        <label for="progdi">Program Studi:</label>
+        <select id="progdi" name="progdi">
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Sistem Informatika">Sistem Informatika</option>
+            <option value="Komputerisasi Akuntansi">Komputerisasi Akuntansi</option>
+            <option value="Manajemen Informasi">Manajemen Informasi</option>
+        </select>
+        <label for="alamat">Alamat:</label>
+        <input type="text" id="alamat" name="alamat">
+        <button type="submit">Simpan</button>
+    </form>
+</div>
+
+</body>
+</html>
